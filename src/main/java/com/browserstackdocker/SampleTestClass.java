@@ -23,7 +23,6 @@ public class SampleTestClass {
 
     @BeforeClass
     public void SetUp() {
-        //TODO initialize browserstacklocal
         browserMobProxyServer = new BrowserMobProxyServer();
         browserMobProxyServer.setTrustAllServers(true);
         browserMobProxyServer.start(9191);
