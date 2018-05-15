@@ -32,3 +32,4 @@ browsermob-proxy/
 .vscode/
 target/
 .DS_Store
+*.iml
